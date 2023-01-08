@@ -12,7 +12,6 @@ import com.onlineshop.productservice.model.ProductRequest;
 import com.onlineshop.productservice.model.ProductResponse;
 import com.onlineshop.productservice.repository.ProductRepository;
 
-import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 @Service
