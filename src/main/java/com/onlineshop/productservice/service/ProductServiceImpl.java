@@ -15,7 +15,7 @@ import com.onlineshop.productservice.repository.ProductRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 @Service
-public class ProductServiceImpl {
+public class ProductServiceImpl implements ProductService{
 	private static Logger LOGGER = LoggerFactory.getLogger(ProductServiceImpl.class);
 	  
 	  @Autowired
